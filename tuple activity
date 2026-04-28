@@ -1,0 +1,47 @@
+# Tuple Activities
+# (Ordered, immutable, indexed)
+
+# Activity 1: Access Elements
+colors = ("red", "green", "blue")
+
+# Print the first and last item
+print("First color:", colors[0])
+print("Last color:", colors[-1])
+
+
+# Activity 2: Slicing
+numbers = (10, 20, 30, 40, 50)
+
+# Print (20, 30, 40)
+print("Sliced numbers:", numbers[1:4])
+
+
+# Activity 3: Tuple Methods
+nums = (1, 2, 2, 3, 2)
+
+# Count how many times 2 appears
+print("Count of 2:", nums.count(2))
+
+# Find index of 3
+print("Index of 3:", nums.index(3))
+
+
+# Activity 4: Tuple Packing & Unpacking
+point = (5, 10)
+
+# Assign values to x and y
+x, y = point
+
+# Print: x = 5, y = 10
+print("x =", x)
+print("y =", y)
+
+
+# Activity 5 (Challenge): Combine Tuples
+t1 = (1, 2)
+t2 = (3, 4)
+
+# Combine and repeat twice
+result = (t1 + t2) * 2
+
+print("Combined tuple:", result)
